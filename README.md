@@ -1,6 +1,7 @@
-# RxjsOperators
+# Rxjs Operators
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+It contains implementation of rxjs operators.
 
 ## Development server
 
