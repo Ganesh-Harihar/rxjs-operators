@@ -7,13 +7,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { ObservablesModule } from './pages/observables/observables.module';
 import { PromiseComponent } from './pages/promise/promise.component';
 import { AsyncAwaitComponent } from './pages/async-await/async-await.component';
+import { NotFoundComponent } from './not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PromiseComponent,
-    AsyncAwaitComponent
+    AsyncAwaitComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
