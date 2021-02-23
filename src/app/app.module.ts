@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ObservablesModule } from './pages/observables/observables.module';
+import { PromiseComponent } from './pages/promise/promise.component';
+import { AsyncAwaitComponent } from './pages/async-await/async-await.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    PromiseComponent,
+    AsyncAwaitComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ObservablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
