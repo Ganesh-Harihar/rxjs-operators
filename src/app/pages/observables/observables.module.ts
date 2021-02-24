@@ -7,10 +7,11 @@ import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalAndTimerComponent } from './interval-and-timer/interval-and-timer.component';
 import { OfFromComponent } from './of-from/of-from.component';
 import { ToArrayComponent } from './to-array/to-array.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
-  declarations: [ObservablesComponent, FromEventComponent, IntervalAndTimerComponent, OfFromComponent, ToArrayComponent],
+  declarations: [ObservablesComponent, FromEventComponent, IntervalAndTimerComponent, OfFromComponent, ToArrayComponent, MapComponent],
   imports: [
     CommonModule,
     ObservablesRoutingModule
