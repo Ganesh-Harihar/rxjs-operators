@@ -10,7 +10,6 @@ import { DesignUtilityService } from 'src/app/services/design-utility.service';
 export class MapComponent implements OnInit {
 
   intervalObservableSubscription!: Subscription;
-  fromObservableSubscription!: Subscription;
 
   users = [
     { age: 10, name: 'Ganesh' },
@@ -39,7 +38,7 @@ export class MapComponent implements OnInit {
      */
 
     const fromObservable = from(this.users);
-    this.fromObservableSubscription = fromObservable.pipe(map(data => data.name)).subscribe((res) => {
+    fromObservable.pipe(map(data => data.name)).subscribe((res) => {
       this.designUtilityService.addToList(res, 'MapListContainerArray');
     })
   }
