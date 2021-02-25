@@ -16,7 +16,10 @@
           <a class="nav-link" href routerLink="observables" routerLinkActive="active">Observables</a>
         </li>
         <li class="nav-item">
-          <input class="form-check-input mt-10" type="checkbox" value="" id="flexCheckDefault" (change)="toggleTheme()">
+          <label class="switch mt-10">
+            <input type="checkbox" (change)="toggleTheme()">
+            <span class="slider round"></span>
+          </label>
         </li>
       </ul>
     </div>
