@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FilterComponent } from './filter/filter.component';
 import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalAndTimerComponent } from './interval-and-timer/interval-and-timer.component';
 import { MapComponent } from './map/map.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'to-array', component: ToArrayComponent },
   { path: 'map', component: MapComponent },
   { path: 'pluck', component: PluckComponent },
+  { path: 'filter', component: FilterComponent },
 ];
 
 @NgModule({
