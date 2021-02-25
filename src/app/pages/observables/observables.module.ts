@@ -12,10 +12,11 @@ import { PluckComponent } from './pluck/pluck.component';
 import { FilterComponent } from './filter/filter.component';
 import { TapComponent } from './tap/tap.component';
 import { TakeComponent } from './take/take.component';
+import { RetryComponent } from './retry/retry.component';
 
 
 @NgModule({
-  declarations: [ObservablesComponent, FromEventComponent, IntervalAndTimerComponent, OfFromComponent, ToArrayComponent, MapComponent, PluckComponent, FilterComponent, TapComponent, TakeComponent],
+  declarations: [ObservablesComponent, FromEventComponent, IntervalAndTimerComponent, OfFromComponent, ToArrayComponent, MapComponent, PluckComponent, FilterComponent, TapComponent, TakeComponent, RetryComponent],
   imports: [
     CommonModule,
     ObservablesRoutingModule
