@@ -1,0 +1,11 @@
+$color: #212529 !important;
+$color-dark:#fff !important;
+$background : #fff;
+$background-dark : #212529!important;
+
+
+$colors: (
+  --color:($color,$color-dark),
+  --background:($background,$background-dark)
+)
+

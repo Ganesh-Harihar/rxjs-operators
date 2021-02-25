@@ -1,6 +1,6 @@
 .operator-card:hover {
   .card {
-    background-color: #212529 !important;
-    color: #fff;
+    background-color: var(--color) !important;
+    color: var(--background) !important;
   }
 }

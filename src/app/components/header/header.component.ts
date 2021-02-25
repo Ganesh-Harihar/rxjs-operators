@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { fromEvent } from 'rxjs';
+import { UiStyleToggleService } from 'src/app/services/ui-style-toggle.service';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,12 @@ import { fromEvent } from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private uiStyleToggleService: UiStyleToggleService) { }
+
+  toggleTheme() {
+    this.uiStyleToggleService.toggle();
+  }
 
   ngOnInit(): void {
     fromEvent(document, 'click').subscribe((res: any) => {
