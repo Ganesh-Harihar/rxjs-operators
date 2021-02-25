@@ -13,10 +13,24 @@ import { FilterComponent } from './filter/filter.component';
 import { TapComponent } from './tap/tap.component';
 import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
+import { DebounctimeComponent } from './debounctime/debounctime.component';
 
 
 @NgModule({
-  declarations: [ObservablesComponent, FromEventComponent, IntervalAndTimerComponent, OfFromComponent, ToArrayComponent, MapComponent, PluckComponent, FilterComponent, TapComponent, TakeComponent, RetryComponent],
+  declarations: [
+    ObservablesComponent,
+    FromEventComponent,
+    IntervalAndTimerComponent,
+    OfFromComponent,
+    ToArrayComponent,
+    MapComponent,
+    PluckComponent,
+    FilterComponent,
+    TapComponent,
+    TakeComponent,
+    RetryComponent,
+    DebounctimeComponent
+  ],
   imports: [
     CommonModule,
     ObservablesRoutingModule
