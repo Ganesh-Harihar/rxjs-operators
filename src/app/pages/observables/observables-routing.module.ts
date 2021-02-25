@@ -7,6 +7,7 @@ import { MapComponent } from './map/map.component';
 import { ObservablesComponent } from './observables.component';
 import { OfFromComponent } from './of-from/of-from.component';
 import { PluckComponent } from './pluck/pluck.component';
+import { TapComponent } from './tap/tap.component';
 import { ToArrayComponent } from './to-array/to-array.component';
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'map', component: MapComponent },
   { path: 'pluck', component: PluckComponent },
   { path: 'filter', component: FilterComponent },
+  { path: 'tap', component: TapComponent },
 ];
 
 @NgModule({
