@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DebounctimeComponent } from './debounctime/debounctime.component';
+import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
 import { FilterComponent } from './filter/filter.component';
 import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalAndTimerComponent } from './interval-and-timer/interval-and-timer.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'take', component: TakeComponent },
   { path: 'retry', component: RetryComponent },
   { path: 'debounce-time', component: DebounctimeComponent },
+  { path: 'distinct-until-changed', component: DistinctUntilChangedComponent },
 ];
 
 @NgModule({

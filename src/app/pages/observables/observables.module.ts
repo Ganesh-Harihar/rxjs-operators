@@ -14,6 +14,7 @@ import { TapComponent } from './tap/tap.component';
 import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
 import { DebounctimeComponent } from './debounctime/debounctime.component';
+import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { DebounctimeComponent } from './debounctime/debounctime.component';
     TapComponent,
     TakeComponent,
     RetryComponent,
-    DebounctimeComponent
+    DebounctimeComponent,
+    DistinctUntilChangedComponent
   ],
   imports: [
     CommonModule,
