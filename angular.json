@@ -129,6 +129,10 @@
               "devServerTarget": "rxjs-operators:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }

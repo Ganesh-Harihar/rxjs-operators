@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "rxjs-operators-48c43": {
+      "hosting": {
+        "rxjs-operators": [
+          "rxjs-operators-48c43"
+        ]
+      }
+    }
+  }
+}
