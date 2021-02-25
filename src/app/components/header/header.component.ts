@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,11 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    fromEvent(document, 'click').subscribe((res: any) => {
+      if (res.target != document.getElementById('collapse-btn')) {
+        document.getElementById('navbarSupportedContent')?.classList.remove('show');
+      }
+    })
   }
 
 }
