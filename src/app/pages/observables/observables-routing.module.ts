@@ -19,6 +19,7 @@ import { SwitchMapComponent } from './switch-map/switch-map.component';
 import { TakeComponent } from './take/take.component';
 import { TapComponent } from './tap/tap.component';
 import { ToArrayComponent } from './to-array/to-array.component';
+import { ZipAndForkjoinComponent } from './zip-and-forkjoin/zip-and-forkjoin.component';
 
 const routes: Routes = [
   { path: '', component: ObservablesComponent },
@@ -40,6 +41,7 @@ const routes: Routes = [
   { path: 'merge-map', component: MergeMapComponent },
   { path: 'switch-map', component: SwitchMapComponent },
   { path: 'combine-and-with-latest', component: CombineAndWithLatestComponent },
+  { path: 'zip-and-forkjoin', component: ZipAndForkjoinComponent },
 ];
 
 @NgModule({

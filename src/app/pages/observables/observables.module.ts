@@ -21,6 +21,7 @@ import { MergeMapComponent } from './merge-map/merge-map.component';
 import { ConcatMapComponent } from './concat-map/concat-map.component';
 import { SwitchMapComponent } from './switch-map/switch-map.component';
 import { CombineAndWithLatestComponent } from './combine-and-with-latest/combine-and-with-latest.component';
+import { ZipAndForkjoinComponent } from './zip-and-forkjoin/zip-and-forkjoin.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { CombineAndWithLatestComponent } from './combine-and-with-latest/combine
     MergeMapComponent,
     ConcatMapComponent,
     SwitchMapComponent,
-    CombineAndWithLatestComponent
+    CombineAndWithLatestComponent,
+    ZipAndForkjoinComponent
   ],
   imports: [
     CommonModule,
