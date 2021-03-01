@@ -17,6 +17,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.uiStyleToggleService.setThemeOnStart();
     fromEvent(document, 'click').subscribe((res: any) => {
       if (res.target != document.getElementById('collapse-btn')) {
         document.getElementById('navbarSupportedContent')?.classList.remove('show');
