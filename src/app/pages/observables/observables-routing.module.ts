@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ConcatMapComponent } from './concat-map/concat-map.component';
 import { ConcatComponent } from './concat/concat.component';
 import { DebounctimeComponent } from './debounctime/debounctime.component';
 import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'distinct-until-changed', component: DistinctUntilChangedComponent },
   { path: 'concat', component: ConcatComponent },
   { path: 'merge', component: MergeComponent },
+  { path: 'concat-map', component: ConcatMapComponent },
   { path: 'merge-map', component: MergeMapComponent },
 ];
 

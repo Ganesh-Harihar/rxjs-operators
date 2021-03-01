@@ -18,6 +18,7 @@ import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct
 import { ConcatComponent } from './concat/concat.component';
 import { MergeComponent } from './merge/merge.component';
 import { MergeMapComponent } from './merge-map/merge-map.component';
+import { ConcatMapComponent } from './concat-map/concat-map.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { MergeMapComponent } from './merge-map/merge-map.component';
     DistinctUntilChangedComponent,
     ConcatComponent,
     MergeComponent,
-    MergeMapComponent
+    MergeMapComponent,
+    ConcatMapComponent
   ],
   imports: [
     CommonModule,
