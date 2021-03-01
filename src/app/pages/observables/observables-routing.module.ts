@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CombineAndWithLatestComponent } from './combine-and-with-latest/combine-and-with-latest.component';
 import { ConcatMapComponent } from './concat-map/concat-map.component';
 import { ConcatComponent } from './concat/concat.component';
 import { DebounctimeComponent } from './debounctime/debounctime.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
   { path: 'concat-map', component: ConcatMapComponent },
   { path: 'merge-map', component: MergeMapComponent },
   { path: 'switch-map', component: SwitchMapComponent },
+  { path: 'combine-and-with-latest', component: CombineAndWithLatestComponent },
 ];
 
 @NgModule({

@@ -20,6 +20,7 @@ import { MergeComponent } from './merge/merge.component';
 import { MergeMapComponent } from './merge-map/merge-map.component';
 import { ConcatMapComponent } from './concat-map/concat-map.component';
 import { SwitchMapComponent } from './switch-map/switch-map.component';
+import { CombineAndWithLatestComponent } from './combine-and-with-latest/combine-and-with-latest.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { SwitchMapComponent } from './switch-map/switch-map.component';
     MergeComponent,
     MergeMapComponent,
     ConcatMapComponent,
-    SwitchMapComponent
+    SwitchMapComponent,
+    CombineAndWithLatestComponent
   ],
   imports: [
     CommonModule,

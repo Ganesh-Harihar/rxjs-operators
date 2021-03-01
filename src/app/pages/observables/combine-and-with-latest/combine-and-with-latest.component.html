@@ -1,0 +1,36 @@
+<div class="container my-3">
+  <h2 class="h2">CombineLatest & WithLatestFrom</h2>
+  <br />
+  <div class="row">
+    <div class="col-md-3 pr-4">
+      <strong>Names</strong>
+      <hr />
+      <select class="form-control" #name>
+        <option *ngFor="let name of names" value="{{ name }}">
+          {{ name }}
+        </option>
+      </select>
+      <br />
+      <br>
+      <strong>Colors</strong>
+      <hr />
+      <select class="form-control" #color>
+        <option *ngFor="let color of colors" value="{{ color }}">
+          {{ color }}
+        </option>
+      </select>
+    </div>
+
+    <div class="col-md-9 ml-auto">
+      <strong>CombineLatest</strong>
+      <hr />
+      <div class="d-flex" id="combineLatest"></div>
+      <br>
+
+      <strong>WithLatestFrom</strong>
+      <hr />
+      <div class="d-flex" id="withLatestFrom"></div>
+
+    </div>
+  </div>
+</div>
