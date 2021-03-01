@@ -15,6 +15,8 @@ import { TakeComponent } from './take/take.component';
 import { RetryComponent } from './retry/retry.component';
 import { DebounctimeComponent } from './debounctime/debounctime.component';
 import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
+import { ConcatComponent } from './concat/concat.component';
+import { MergeComponent } from './merge/merge.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct
     TakeComponent,
     RetryComponent,
     DebounctimeComponent,
-    DistinctUntilChangedComponent
+    DistinctUntilChangedComponent,
+    ConcatComponent,
+    MergeComponent
   ],
   imports: [
     CommonModule,
