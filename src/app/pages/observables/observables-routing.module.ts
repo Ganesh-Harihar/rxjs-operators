@@ -14,6 +14,7 @@ import { ObservablesComponent } from './observables.component';
 import { OfFromComponent } from './of-from/of-from.component';
 import { PluckComponent } from './pluck/pluck.component';
 import { RetryComponent } from './retry/retry.component';
+import { SwitchMapComponent } from './switch-map/switch-map.component';
 import { TakeComponent } from './take/take.component';
 import { TapComponent } from './tap/tap.component';
 import { ToArrayComponent } from './to-array/to-array.component';
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'merge', component: MergeComponent },
   { path: 'concat-map', component: ConcatMapComponent },
   { path: 'merge-map', component: MergeMapComponent },
+  { path: 'switch-map', component: SwitchMapComponent },
 ];
 
 @NgModule({
