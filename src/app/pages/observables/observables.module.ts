@@ -17,6 +17,7 @@ import { DebounctimeComponent } from './debounctime/debounctime.component';
 import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
 import { ConcatComponent } from './concat/concat.component';
 import { MergeComponent } from './merge/merge.component';
+import { MergeMapComponent } from './merge-map/merge-map.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { MergeComponent } from './merge/merge.component';
     DebounctimeComponent,
     DistinctUntilChangedComponent,
     ConcatComponent,
-    MergeComponent
+    MergeComponent,
+    MergeMapComponent
   ],
   imports: [
     CommonModule,

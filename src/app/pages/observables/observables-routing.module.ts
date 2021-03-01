@@ -7,6 +7,7 @@ import { FilterComponent } from './filter/filter.component';
 import { FromEventComponent } from './from-event/from-event.component';
 import { IntervalAndTimerComponent } from './interval-and-timer/interval-and-timer.component';
 import { MapComponent } from './map/map.component';
+import { MergeMapComponent } from './merge-map/merge-map.component';
 import { MergeComponent } from './merge/merge.component';
 import { ObservablesComponent } from './observables.component';
 import { OfFromComponent } from './of-from/of-from.component';
@@ -32,6 +33,7 @@ const routes: Routes = [
   { path: 'distinct-until-changed', component: DistinctUntilChangedComponent },
   { path: 'concat', component: ConcatComponent },
   { path: 'merge', component: MergeComponent },
+  { path: 'merge-map', component: MergeMapComponent },
 ];
 
 @NgModule({
